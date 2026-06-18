@@ -59,7 +59,10 @@
 
         /* アプリケーションへのリンクボタン */
         .btn-container {
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
             margin-top: 30px;
         }
 
@@ -121,6 +124,9 @@
         <div class="btn-container">
             <a href="GarbagePointMap.html" class="launch-button">
                 🗺️ ゴミ集積所マップを起動する
+            </a>
+            <a href="GarbageTruckMap.html" class="launch-button">
+                🚛 ゴミ収集車トラッキングマップを起動する
             </a>
         </div>
     </div>
